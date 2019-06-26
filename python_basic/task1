@@ -1,0 +1,11 @@
+#Define a function, that takes string as argument and prints "Hello, %arg%!"
+def function(name):
+    greet = "Hello {0} ! Hope you're having a nice day {0}!"
+    print(greet.format(name))
+
+print('Enter the string:')
+x = input()
+function(x)
+
+
+
